@@ -20,15 +20,30 @@ const App = () => {
                         <Budget />
                     </div>   
 
-                        {/* Add Remaining component here under */}        
+                                        //Remaining component
+                    <div className='col-sm'>
+                        <Remaining />
+                    </div>     
 
-                        {/* Add ExpenseTotal component here under */}        
+                                         //ExpenseTotal component
+                    <div className='col-sm'>
+                        <ExpenseTotal />
+                    </div>       
                        
-                        {/* Add ExpenseList component here under */}         
+                        {/* Add ExpenseList component here under */}  
+ <div className='col-sm'>
+                        <ExpenseList />
+                    </div>   
 
-                        {/* Add ExpenseItem component here under */}        
+                        {/* Add ExpenseItem component here under */}    
+ <div className='col-sm'>
+                        <ExpenseItem />
+                    </div>   
 
-                        {/* Add AllocationForm component here under */}        
+                        {/* Add AllocationForm component here under */}     
+ <div className='col-sm'>
+                        <AllocationForm />
+                    </div>   
 
                 </div>
             </div>
